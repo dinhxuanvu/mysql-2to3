@@ -449,7 +449,7 @@ CREATE TABLE `proxies_priv` (
 
 LOCK TABLES `proxies_priv` WRITE;
 /*!40000 ALTER TABLE `proxies_priv` DISABLE KEYS */;
-INSERT INTO `proxies_priv` VALUES ('localhost','root','','',1,'','2016-03-15 13:53:06'),('ip-172-18-5-156','root','','',1,'','2016-03-15 13:53:06');
+INSERT INTO `proxies_priv` VALUES ('localhost','root','','',1,'','2016-03-16 15:24:23'),('ip-172-18-5-156','root','','',1,'','2016-03-16 15:24:23');
 /*!40000 ALTER TABLE `proxies_priv` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -692,7 +692,7 @@ CREATE TABLE `user` (
 
 LOCK TABLES `user` WRITE;
 /*!40000 ALTER TABLE `user` DISABLE KEYS */;
-INSERT INTO `user` VALUES ('127.1.244.2','adminig8ecb2','*A7647DF285C30D4A566C4D69970DDC3A680C0592','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','','','','',0,0,0,0,'',NULL),('%','adminig8ecb2','*A7647DF285C30D4A566C4D69970DDC3A680C0592','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','','','','',0,0,0,0,'',NULL);
+INSERT INTO `user` VALUES ('127.1.244.2','adminaEUVyZf','*5F7FA5C3C3C4157743F97DB8A979928A97809B27','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','','','','',0,0,0,0,'',NULL),('%','adminaEUVyZf','*5F7FA5C3C3C4157743F97DB8A979928A97809B27','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','Y','','','','',0,0,0,0,'',NULL);
 /*!40000 ALTER TABLE `user` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1205,8 +1205,8 @@ DROP TABLE IF EXISTS `test_table`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `test_table` (
-  `var01` int(11) NOT NULL,
-  `var02` int(11) NOT NULL
+  `var1` int(11) NOT NULL,
+  `var2` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -1228,4 +1228,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2016-03-15 10:35:49
+-- Dump completed on 2016-03-16 11:27:36
